@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e4e9f7;
+}
+
+/* login signup page css */
+.loginbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.loginform {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* end of login signup page css */
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-check-label {
+    font-size: 16px;
+}
+.form-check-input[type=radio] {
+    border: 2px solid #000;
+}
+.form-check-input[type=radio]:checked {
+    background-color: rgb(29, 88, 6);
+    border-color: none;
+}
